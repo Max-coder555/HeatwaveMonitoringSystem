@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advisory Subscription</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/form.css">
+</head>
+<body>
+<header>
+    <h1 id="heatwave-system" title="Portal for heatwave monitoring, prediction and early warning">
+        Heatwave Intelligence System
+    </h1>
+    <p>Climate Intelligence Monitoring Portal | Season: 2026</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="alert-details.html">Alert</a> |
+    <a href="about-system.html">About</a> |
+    <a href="sources.html">Sources</a> |
+    <a href="navigation.html">Navigation</a> |
+    <a href="hotspot-map.html">Hotspot Map</a> |
+    <a href="forecast.html">Forecast</a> |
+    <a href="subscribe.html">Subscribe</a> |
+    <a href="media.html">Media</a>
+</nav>
+
+<main>
+
+<h2>Online Heatwave Advisory Subscription</h2>
+<form action="#" method="post" class="registration-form">
+    <fieldset>
+        <legend>Citizen Information</legend>
+
+        <p>
+            <label for="name">Citizen Name:</label><br>
+            <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="tel" id="mobile" name="mobile" required>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Alert Preferences</legend>
+
+        <p>
+            <label for="region">Region:</label><br>
+            <select id="region" name="region">
+                <option value="">Select Region</option>
+                <option>North Zone</option>
+                <option>Central Zone</option>
+                <option>West Zone</option>
+                <option>East Zone</option>
+            </select>
+        </p>
+
+        <p>Preferred Alert Language:</p>
+        <label><input type="radio" name="language" value="English" required> English</label>
+        <label><input type="radio" name="language" value="Hindi"> Hindi</label>
+        <label><input type="radio" name="language" value="Marathi"> Marathi</label>
+
+        <p>Alert Types:</p>
+        <label><input type="checkbox" name="alert" value="severe"> Severe Heatwave Alerts</label><br>
+        <label><input type="checkbox" name="alert" value="forecast"> Forecast Updates</label><br>
+        <label><input type="checkbox" name="alert" value="advisory"> Safety Advisories</label>
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Subscribe">
+        <input type="reset" value="Reset">
+    </p>
+</form>
+
+</main>
+
+<footer>
+    <hr>
+    <p>Heatwave Intelligence System - HTML5 Laboratory Prototype</p>
+</footer>
+</body>
+</html>

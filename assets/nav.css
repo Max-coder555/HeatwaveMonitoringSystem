@@ -1,0 +1,5 @@
+
+#portal-menu{list-style:none;padding:12px;margin:0;background:#20252a;text-align:center}
+#portal-menu li{display:inline-block}
+#portal-menu a{display:inline-block;color:white;padding:9px 12px;text-decoration:none}
+#portal-menu a:hover{background:#b7352c;text-decoration:none}

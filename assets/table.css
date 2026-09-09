@@ -1,0 +1,5 @@
+
+.data-table{width:100%;border-collapse:collapse;text-align:center}
+.data-table th,.data-table td{border:1px solid #999;padding:10px}
+.data-table th{background:#8e2d25;color:white}
+.data-table tr:nth-child(even){background:#f3eee6}

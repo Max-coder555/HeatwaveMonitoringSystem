@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotspot Map</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+    <h1 id="heatwave-system" title="Portal for heatwave monitoring, prediction and early warning">
+        Heatwave Intelligence System
+    </h1>
+    <p>Climate Intelligence Monitoring Portal | Season: 2026</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="alert-details.html">Alert</a> |
+    <a href="about-system.html">About</a> |
+    <a href="sources.html">Sources</a> |
+    <a href="navigation.html">Navigation</a> |
+    <a href="hotspot-map.html">Hotspot Map</a> |
+    <a href="forecast.html">Forecast</a> |
+    <a href="subscribe.html">Subscribe</a> |
+    <a href="media.html">Media</a>
+</nav>
+
+<main>
+
+<h2>Regional Heatwave Hotspot Map</h2>
+<p>Select a region from the image map.</p>
+
+<img src="assets/hotspot-map.svg"
+     alt="Illustrative regional heatwave hotspot map"
+     width="800"
+     height="500"
+     usemap="#heatZones">
+
+<map name="heatZones">
+    <area shape="circle" coords="300,180,65"
+          href="region-north.html"
+          alt="North Zone"
+          title="North Zone">
+    <area shape="circle" coords="500,320,80"
+          href="region-central.html"
+          alt="Central Zone"
+          title="Central Zone">
+</map>
+
+<p><a href="region-north.html">North Zone details</a></p>
+<p><a href="region-central.html">Central Zone details</a></p>
+
+</main>
+
+<footer>
+    <hr>
+    <p>Heatwave Intelligence System - HTML5 Laboratory Prototype</p>
+</footer>
+</body>
+</html>
